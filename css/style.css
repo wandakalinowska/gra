@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+body {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  max-width: 1200px;
+  background-color: #fafafa;
+  margin: 0 auto;
+  color: #777777; }
+
+.game_title {
+  margin-top: 20px; }
+
+.new_game {
+  margin: 20px; }
+  .new_game .btn {
+    border: solid 1px #777777;
+    padding: 20px;
+    font-size: 120%;
+    background-color: #fafafa; }
+    .new_game .btn:hover {
+      box-shadow: 5px 5px 5px #777777; }
+
+.pick_element {
+  background-color: #fafafa; }
+  .pick_element button {
+    background-color: transparent;
+    border: solid 1px #777777;
+    margin: 20px 40px;
+    padding: 10px; }
+    .pick_element button span {
+      border: solid 1px #777777;
+      padding: 20px;
+      width: 100px;
+      height: 100px; }
+      .pick_element button span img {
+        width: 100%;
+        height: 100%; }
+    .pick_element button p {
+      margin-top: 10px;
+      font-size: 150%; }
+    .pick_element button:hover {
+      box-shadow: 5px 5px 5px #777777; }
+
+.result {
+  margin-top: 30px; }
+  .result .vs {
+    font-size: 200%;
+    margin-top: 20px; }
+  .result .score {
+    font-size: 180%; }
+  .result .name {
+    font-size: 180%; }
+
+/*# sourceMappingURL=style.css.map */

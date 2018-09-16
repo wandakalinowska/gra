@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+$font:'Titillium Web', sans-serif;
+$grey: #777777;
+$white: #fafafa;
+
+body {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: $font;
+	max-width: 1200px;
+	background-color: $white;
+	margin: 0 auto;
+	color: $grey;
+}
+
+.game_title {
+	margin-top: 20px;
+}
+
+.new_game {
+	margin: 20px;
+	.btn {
+		border: solid 1px $grey;
+		padding: 20px;
+		font-size: 120%;
+		background-color: $white;
+		&:hover {
+			box-shadow: 5px 5px 5px $grey;
+		}
+	}
+}
+
+.pick_element {
+	background-color: $white;
+
+	button {
+		background-color: transparent;
+		border: solid 1px $grey;
+		margin: 20px 40px;
+		padding: 10px;
+	   	span {
+	   		border: solid 1px $grey;
+			padding: 20px;
+			width: 100px;
+			height: 100px;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		p {
+			margin-top: 10px;
+			font-size: 150%;
+		}
+		&:hover {
+			box-shadow: 5px 5px 5px $grey;
+		}
+	}
+}
+
+.result {
+	margin-top: 30px;
+	.vs {
+		font-size: 200%;
+		margin-top: 20px;
+	}
+	.score {
+		font-size: 180%;
+	}
+	.name {
+		font-size: 180%;
+	}
+}
