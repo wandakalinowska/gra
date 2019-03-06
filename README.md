@@ -4,7 +4,7 @@
 
 https://wandakalinowska.github.io/gra/
 
-### Rozwiązania, tchnologie i narzędzia:
+### Rozwiązania, technologie i narzędzia:
 
 * HTML 5
 * CSS 3
