@@ -19,8 +19,11 @@ body {
 }
 
 .new_game {
-	margin: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
 	.btn {
+		margin-top: 20px;
 		border: solid 1px $grey;
 		padding: 20px;
 		font-size: 120%;
